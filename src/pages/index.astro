@@ -1,11 +1,26 @@
----
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
----
-
-<Layout>
-	<Welcome />
-</Layout>
+<!DOCTYPE html>
+<html lang="en">
+  <title>Personal Profile</title>
+  <head>
+    <link rel="stylesheet" href="/src/pages/main.css">
+  </head>
+  <body>
+    <h1>Personal Profile</h1>
+    <h2>Enkhjin (3204954)</h2>
+    <h3>Biography</h3>
+    <p>
+      My name is Enkhjin.<br />
+      I've been living in Ireland for two years now. The reason I'm doing this
+      master is I've always been into design and creativity since I was a young
+      girl. However, life happens; I have studied computer science for my
+      bachelor's degree. and worked almost 4 years in banking technology, where
+      I grew a lot and more importantly, I came across the term User Experience
+      Design, aka UI UX, which includes design and technology. It was like the
+      best of both worlds to me, then I decided to change my career into it. So
+      I'm actually happy to be learning here, because I'm taking action to
+      change my career to one I love.
+    </p>
+    <h4>My favourite food is <a href="/src/pages/food.astro">Ramen</a></h4>
+	<img src="https://hips.hearstapps.com/hmg-prod/images/190208-ramen-horizontal-063-1550014435.jpg?crop=0.670xw:1.00xh;0.318xw,0&resize=640:*" alt="A bowl of delicious ramen" />
+  </body>
+</html>
